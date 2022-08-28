@@ -1,7 +1,5 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import { Mycircle } from './component/circle'
-import { Text } from './component/text'
 function App() {
   const [index, setIndex] = useState(0);
   const [value, setValue] = useState(0);
